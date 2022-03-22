@@ -10,7 +10,7 @@ function loadingFiles() {
   wp_enqueue_style('owl-carousel', get_theme_file_uri('/css/owl.carousel.min.css'));
   wp_enqueue_style('slick', get_theme_file_uri('/css/slick.css'));
   wp_enqueue_style('manific-popup', get_theme_file_uri('/css/magnific-popup.css'));
-  wp_enqueue_style('custom-css', get_theme_file_uri('/css/style.css"'));
+  wp_enqueue_style('custom-css', get_theme_file_uri('/css/style.css'));
 
 }
 
