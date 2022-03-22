@@ -81,7 +81,7 @@
 						</div>
 						<div class="col-lg-6">
 							<div class="services_img">
-								<img src="images/bg-img/services_img.jpeg" alt="Services">
+								<img src="<?php echo get_theme_file_uri('/images/bg-img/services_img.jpeg') ?>" alt="Services">
 							</div>
 						</div>
 					</div>
@@ -89,7 +89,7 @@
 					<div class="row no-gutters mt-1">
 						<div class="col-lg-6">
 							<div class="services_img">
-								<img src="images/bg-img/services_img2.jpeg" alt="Services">
+								<img src="<?php echo get_theme_file_uri('/images/bg-img/services_img2.jpeg') ?>" alt="Services">
 							</div>
 						</div>
 						<div class="col-lg-6 order-first order-lg-2">
@@ -111,7 +111,7 @@
 						</div>
 						<div class="col-lg-6">
 							<div class="services_img">
-								<img src="images/bg-img/services_img.jpeg" alt="Services">
+								<img src="<?php echo get_theme_file_uri('/images/bg-img/services_img.jpeg') ?>" alt="Services">
 							</div>
 						</div>
 					</div>
@@ -149,7 +149,7 @@
 						<div class="col-md-4">
 							<div class="my-col">
 								<div class="card">
-						            <img class="card-img-top" src="images/bg-img/upcoming_events_img_1.jpg" alt="Card image cap">
+						            <img class="card-img-top" src="<?php echo get_theme_file_uri('/images/bg-img/upcoming_events_img_1.jpg') ?>" alt="Card image cap">
 						            <div class="card-body">
 						                <h4 class="card-title">Reenal Scott</h4>
 						                <p class="card-text">Reenal Scott is the Founder and CEO of Elixir, which he started from his dorm room in 2013 with 3 people only.</p>
@@ -161,7 +161,7 @@
 						<div class="col-md-4">
 							<div class="my-col">
 								<div class="card">
-						            <img class="card-img-top" src="images/bg-img/upcoming_events_img_2.jpg" alt="Card image cap">
+						            <img class="card-img-top" src="<?php echo get_theme_file_uri('/images/bg-img/upcoming_events_img_2.jpg') ?>" alt="Card image cap">
 						            <div class="card-body">
 						                <h4 class="card-title">Lily Anderson</h4>
 						                <p class="card-text">Lily leads Elixir UK and oversees the company’s Customer Operations teams supporting millions ofr users.</p>
@@ -173,7 +173,7 @@
 						<div class="col-md-4">
 							<div class="my-col">
 								<div class="card">
-						            <img class="card-img-top" src="images/bg-img/upcoming_events_img_3.jpg" alt="Card image cap">
+						            <img class="card-img-top" src="<?php echo get_theme_file_uri('/images/bg-img/upcoming_events_img_3.jpg') ?>" alt="Card image cap">
 						            <div class="card-body">
 						                <h4 class="card-title">Thomas Anderson</h4>
 						                <p class="card-text">As the VP of People, Thomas’s focus lies in the development and optimization of talent retention.</p>
@@ -189,7 +189,7 @@
 			<!-- ***** Video Area Start ***** -->
 		    <div class="video-section" id="events">
 		        <!-- Video Area Start -->
-		        <div class="video-area" style="background-image: url('images/bg-img/video_img.jpg');">
+		        <div class="video-area" style="background-image: url('<?php echo get_theme_file_uri('/images/bg-img/video_img.jpg') ?>); ">
 		            <div class="video-play-btn">
 		                <a class="video_btn" href="http://www.youtube.com/watch?v=0O2aH4XLbto"><i class="fa fa-play" aria-hidden="true"></i></a>
 		            </div>
@@ -203,7 +203,7 @@
 		    		<div class="row">
 		    			<div class="col-12 col-sm-12 col-lg-5">
 		    				<div class="features_img">
-		    					<img src="images/bg-img/features.jpg" alt="features_img">
+		    					<img src="<?php echo get_theme_file_uri('/images/bg-img/features.jpg') ?>" alt="features_img">
 		    				</div>
 		    			</div>
 		    			<div class="col-12 col-sm-12 col-lg-6 mx-auto">
@@ -378,7 +378,7 @@
 		    		<div class="row">
 		    			<div class="col-md-4">
 		    				<div class="our_experts_img">
-		    					<img src="images/bg-img/our_experts_img1.jpg" alt="our_experts_img" class="image">
+		    					<img src="<?php echo get_theme_file_uri('/images/bg-img/our_experts_img1.jpg') ?>" alt="our_experts_img" class="image">
 		    					<div class="overlay">
 								    <div class="text">
 								    	<h4>Roberto Wilkins</h4>
@@ -389,7 +389,7 @@
 		    			</div>
 		    			<div class="col-md-4">
 		    				<div class="our_experts_img">
-		    					<img src="images/bg-img/our_experts_img2.jpg" alt="our_experts_img" class="image">
+		    					<img src="<?php echo get_theme_file_uri('/images/bg-img/our_experts_img2.jpg') ?>" alt="our_experts_img" class="image">
 		    					<div class="overlay">
 								    <div class="text">
 								    	<h4>Juana Bailey</h4>
@@ -400,7 +400,7 @@
 		    			</div>
 		    			<div class="col-md-4">
 		    				<div class="our_experts_img">
-		    					<img src="images/bg-img/our_experts_img3.jpg" alt="our_experts_img" class="image">
+		    					<img src="<?php echo get_theme_file_uri('/images/bg-img/our_experts_img3.jpg') ?>" alt="our_experts_img" class="image">
 		    					<div class="overlay">
 								    <div class="text">
 								    	<h4>Derrick Foster</h4>

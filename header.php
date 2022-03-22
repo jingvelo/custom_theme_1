@@ -44,7 +44,7 @@
 			<!-- MAIN NAVBAR -->
 						<nav class="navbar navbar-expand-lg navbar-dark">
 					<div class="container">
-					  <a class="navbar-brand logo-sticky" href="index.html"><img class="img-fluid" src="images/bg-img/logo.png" alt="Edify" /></a>
+					  <a class="navbar-brand logo-sticky" href="index.html"><img class="img-fluid" src="<?php echo get_theme_file_uri('/images/bg-img/logo.png') ?>" alt="Edify" /></a>
 					  <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarNav"><span class="navbar-toggler-icon"></span></button>
 						<div class="collapse navbar-collapse" id="navbarNav">
 						  <ul class="navbar-nav mr-auto">
