@@ -80,24 +80,10 @@
 
 			
 	</div>
-	 <!-- ***** End Main Wrapper ***** -->
 
+<?php
+  wp_footer();
+  ?>
 
-	<!-- Jquery-2.2.4 JS -->
-    <script src="js/jquery-2.2.4.min.js"></script>
-    <!-- login JS -->
-    <script src="js/login.js"></script>
-    <!-- Bootstrap-4 Beta JS -->
-    <script src="js/bootstrap.min.js"></script>
-    <!--Jquery Easing Js -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.js"></script>
-	<!--Slick Js -->
-	<script src="js/slick.min.js"></script>
-	<!--Magnific Popup Js -->
-	<script src="js/magnific-popup.js"></script>
-	<!--OWL Carousel Js -->
-	<script src="js/owl-carousel.min.js"></script>	
-    <!-- Custom JS -->
-    <script src="js/custom.js"></script>
 </body>
 </html>

@@ -10,23 +10,11 @@
 	<!--Favicon-->
     <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
 	<link rel="icon" href="images/favicon.ico" type="image/x-icon">
-    <!--Google Font-->
-    <link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Acme" rel="stylesheet">
-    <!-- Bootstrap Css-->
-    <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
-    <!-- Icons Css-->
-    <link rel="stylesheet" type="text/css" href="css/themify-icons.css">
-    <!-- Font Awesome Css-->
-    <link rel="stylesheet" type="text/css" href="css/fontawesome-all.min.css">
-    <!-- OWL Carousel Css-->
-    <link rel="stylesheet" type="text/css" href="css/owl.carousel.min.css">
-    <!-- Slick Css -->
-    <link rel="stylesheet" type="text/css" href="css/slick.css">
-    <!-- Magnific Popup Css -->
-    <link rel="stylesheet" type="text/css" href="css/magnific-popup.css">
-    <!-- Custom Css -->
-	<link rel="stylesheet" type="text/css" href="css/style.css">
+    
+  <?php
+    wp_head();
+    ?>
+
 </head>
 <body>
 	<!-- Preloader -->
