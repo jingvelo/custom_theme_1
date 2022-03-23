@@ -47,7 +47,21 @@
 					  <a class="navbar-brand logo-sticky" href="index.html"><img class="img-fluid" src="<?php echo get_theme_file_uri('/images/bg-img/logo.png') ?>" alt="Edify" /></a>
 					  <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarNav"><span class="navbar-toggler-icon"></span></button>
 						<div class="collapse navbar-collapse" id="navbarNav">
-						  <ul class="navbar-nav mr-auto">
+						<?php
+
+								$args = array(
+										'theme_location'  => 'primary',
+										'container_class' => '',
+										'add_li_class'		=> 'nav-item',
+										'menu_class'      => 'navbar-nav mr-auto',
+                      
+
+								);
+								wp_nav_menu($args);
+						
+						?>
+						
+						<!-- <ul class="navbar-nav mr-auto">
 							 <li class="nav-item">
 									<a href="/" class="nav-link">Home</a>
 								  </li>
@@ -64,13 +78,13 @@
 								  <li class="nav-item">
 									<a href="contact.html" class="nav-link">Contact</a>
 								  </li>
-						  </ul>
+						  </ul> -->
 						  
 						  <ul class="navbar-nav ml-auto">
 								   <li class="nav-item">
 									  <a class="link-outline" href="#"><i class="icon fas fa-sign-in-alt"></i>&nbsp;Book now</a>
 								  </li>
-							  </ul>
+							</ul>
 						</div>
 					  </div>
 				</nav>
