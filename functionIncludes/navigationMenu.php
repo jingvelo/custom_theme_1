@@ -23,7 +23,7 @@ function add_additional_class_on_li($classes, $item, $args){
 
 add_filter('nav_menu_css_class', 'add_additional_class_on_li', 1, 3);
 
-// Adding classes to navigation anchor tag.
+// Adding classes to navigation <a> tag.
 
 function add_links_atts($atts){
 

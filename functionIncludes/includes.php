@@ -23,3 +23,4 @@ function loadingFiles() {
 }
 
 add_action('wp_enqueue_scripts', 'loadingFiles');
+ 

@@ -44,7 +44,7 @@
 			<!-- MAIN NAVBAR -->
 						<nav class="navbar navbar-expand-lg navbar-dark">
 					<div class="container">
-					  <a class="navbar-brand logo-sticky" href="index.html"><img class="img-fluid" src="<?php echo get_theme_file_uri('/images/bg-img/logo.png') ?>" alt="Edify" /></a>
+					  <a class="navbar-brand logo-sticky" href="<?php echo site_url('/') ?>"><img class="img-fluid" src="<?php echo get_theme_file_uri('/images/bg-img/logo.png') ?>" alt="Edify" /></a>
 					  <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarNav"><span class="navbar-toggler-icon"></span></button>
 						<div class="collapse navbar-collapse" id="navbarNav">
 						<?php
@@ -54,7 +54,7 @@
 										'container_class' => '',
 										'add_li_class'		=> 'nav-item',
 										'menu_class'      => 'navbar-nav mr-auto',
-                      
+                       
 
 								);
 								wp_nav_menu($args);
@@ -90,4 +90,60 @@
 				</nav>
 		    </div>
 		</header>
+
+<?php
+	if(is_front_page()) {
+		?>
+	
+
+		<section class="main_banner_area text-white">
+			<div class="overl"></div>
+				<div class="container">
+					<div class="row">
+						<div class="col-12 col-lg-6">
+							<div class="info">
+								<h1 class="display-4 text-white bold">Growth Partners</h1>
+								<p class="text-white">Connect with top consultants hand-picked by Edify consulting and finance.</p>
+								<button type="submit" class="btns btn-primary">Learn More</button>
+								<button type="submit" class="btns btn-outline-info blue bg-warning ml-3">Contact Us</button>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+
+			<?php
+	}
+	elseif(!is_single()){ ?>
+		<section id="bg">
+			<div class="overl"></div>
+				<div class="container">
+					<div class="row">
+						<div class="col-lg-12 col-md-6 col-sm-12 pt-5">
+							<div class="section-heading">
+								<h1 class="display-4 text-white"><?php echo single_post_title(); ?></h1>
+							</div>
+							<div class="section-inline">
+								<ul class="list-inline">
+									<li class="list-inline-item">
+									  <a class="home text-white" href="<?php echo site_url('/'); ?>">Home</a>
+								  </li>
+								  <li class="list-inline-item">
+									<i class="home text-white fa fa-angle-double-right"></i>
+								  </li>
+								  <li class="list-inline-item">
+									<p class="home text-white"><?php echo single_post_title(); ?></p>
+								  </li>
+								</ul>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+
+  <?php 
+	}
+	?>
+
+
 

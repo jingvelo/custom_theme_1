@@ -4,23 +4,6 @@
   get_header();
 
 ?>
-
-<section class="main_banner_area text-white">
-			<div class="overl"></div>
-				<div class="container">
-					<div class="row">
-						<div class="col-12 col-lg-6">
-							<div class="info">
-								<h1 class="display-4 text-white bold">Growth Partners</h1>
-								<p class="text-white">Connect with top consultants hand-picked by Edify consulting and finance.</p>
-								<button type="submit" class="btns btn-primary">Learn More</button>
-								<button type="submit" class="btns btn-outline-info blue bg-warning ml-3">Contact Us</button>
-							</div>
-						</div>
-					</div>
-				</div>
-			</section>
-
 			<!-- *****Things You Get section***** -->
 			<section id="things_you_get">
 				<div class="container text-center">					
