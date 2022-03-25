@@ -7,18 +7,32 @@
   <div class="container">
       <div class="row">
           <div class="col-12 col-lg-8 col-sm-12 col-md-8 order-2 order-lg-1">
-              <div>
+
+          <?php
+              while(have_posts()){
+                  the_post()
+              ?>
+
+              <div class="pt-5">
                   <div class="section_image">
                       <img class="img-fluid" src="<?php echo get_theme_file_uri('/images/bg-img/img1.jpg') ?>" alt="image">
                   </div>
                   <div class="section_heading">
-                      <h4 class="mt-4 mb-3 font-weight-bold"><a href="#">Tax impacts of lease mean accounting change</a></h4>
-                      <p class="mb-3">HMRC released a consultation document to flag some potential tax impacts that a forthcoming change. Some people do not understand why you should have to spend money on boot camp when you 
-                      can get the MCSE study materials yourself at a fraction.</p>
-                      <a class="btn btn-primary" href="blog_detail.html">View More</a>
+                      <h4 class="mt-4 mb-3 font-weight-bold"><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h4>
+                      <p class="mb-3">
+                        <?php
+                          echo substr(get_the_content(), 0, 100);
+                          ?>
+                      </p>
+                      <a class="btn btn-primary" href="<?php the_permalink(); ?>">View More</a>
                   </div>
               </div>
-              <div class="pt-5">
+
+              <?php
+              }
+              ?>
+              
+              <!-- <div class="pt-5">
                   <div class="section_image">
                       <img class="img-fluid" src="<?php echo get_theme_file_uri('/images/bg-img/post.jpg') ?>" alt="image">
                   </div>
@@ -50,7 +64,7 @@
                       can get the MCSE study materials yourself at a fraction.</p>
                       <a class="btn btn-primary" href="blog_detail.html">View More</a>
                   </div>
-              </div>
+              </div> -->
 
           </div>
 
